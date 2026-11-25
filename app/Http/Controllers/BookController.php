@@ -21,7 +21,7 @@ class BookController extends Controller
         }
         $books = $query->paginate('10')->withQueryString();
 
-        $categories = Category::all();
+        $categories = Category::orderBy('name', 'ASC')->get();
 
         return view('books.index', [
             'books' => $books,

@@ -5,7 +5,7 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">{{ __('Books Form') }}</div>
+                <div class="card-header">{{ __('Category Form') }}</div>
 
                 <div class="card-body">
                     @if (@session('success'))
