@@ -70,6 +70,9 @@
                             @endforeach
                         </tbody>
                     </table>
+                    <div class="mt-4">
+                        {{ $books->links('pagination::bootstrap-5') }}
+                    </div>
                 </div>
             </div>
         </div>
